@@ -74,8 +74,6 @@ if __name__ == "__main__":
                 print("{0:d} - {1:d}".format(address, r1))
     
             except KeyboardInterrupt:
-                print(colors.reset)
-                print('\033[?25h', end="")  # Restore Blinking Cursor
                 sys.exit(0)
             except AttributeError:
                 continue
