@@ -55,7 +55,7 @@ if __name__ == "__main__":
                4535, 4536, 4537, 4538, 4539, 4540, 4541, 4542, 4543, 4544, 4545, 4546, 4548, 4550, 4552, 4554, 4556,
                4558, 4560, 4562, 4564, 4566, 4568, 4570, 4572]
 
-    ip = "192.168.144.106"  # ip address of GX device or if on venus local try localhost
+    ip = "192.168.X.Y"  # ip address of GX device or if on venus local try localhost
 
     Defaults.Timeout = 25
     Defaults.Retries = 5
